@@ -8,6 +8,7 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 
+import com.xiaofeng.androidlibs.sample.R;
 import com.xiaofeng.androidlibs.util.ArrayUtil;
 
 import java.util.HashMap;

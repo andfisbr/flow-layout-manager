@@ -1,1 +1,3 @@
-include ':app', ':flowlayoutmanager'
+rootProject.name = "flow-layout-manager"
+include ':app'
+include ':flowlayoutmanager'

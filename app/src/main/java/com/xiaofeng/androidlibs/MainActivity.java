@@ -5,23 +5,25 @@ import android.content.SharedPreferences;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.xiaofeng.androidlibs.sample.R;
 import com.xiaofeng.flowlayoutmanager.Alignment;
 import com.xiaofeng.flowlayoutmanager.FlowLayoutManager;
 
-import us.feras.mdv.MarkdownView;
+//import us.feras.mdv.MarkdownView;
 
 public class MainActivity extends AppCompatActivity {
 
 	RecyclerView recyclerView;
 	FlowLayoutManager flowLayoutManager;
-	MarkdownView markdownView;
+	//MarkdownView markdownView;
 	private static final int REQ_CODE_SETTINGS = 101;
 	private boolean settingChanged = false;
 	@Override
@@ -47,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
 			}
 		});
 
-		markdownView = (MarkdownView)findViewById(R.id.instruction_mdown);
-		markdownView.loadMarkdownFile("file:///android_asset/instruction.md");
+		//markdownView = (MarkdownView)findViewById(R.id.instruction_mdown);
+		//markdownView.loadMarkdownFile("file:///android_asset/instruction.md");
 		loadSettingsFromSharedPref();
 	}
 

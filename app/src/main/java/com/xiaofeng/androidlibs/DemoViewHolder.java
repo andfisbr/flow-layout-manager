@@ -1,8 +1,11 @@
 package com.xiaofeng.androidlibs;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.xiaofeng.androidlibs.sample.R;
 
 public class DemoViewHolder extends RecyclerView.ViewHolder {
 	boolean showMeta = false;

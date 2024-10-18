@@ -1,9 +1,12 @@
 package com.xiaofeng.androidlibs;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.xiaofeng.androidlibs.sample.R;
 
 import java.util.LinkedList;
 import java.util.List;
